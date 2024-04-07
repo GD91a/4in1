@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "homey-zigbeedriver": "^2.1.4"
+  }
+}
