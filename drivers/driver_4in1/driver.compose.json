@@ -1,0 +1,57 @@
+{
+  "name": {
+    "en": "driver_4in1"
+  },
+  "class": "button",
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "capabilities": [
+    "alarm_motion",
+    "alarm_battery",
+    "button",
+    "alarm_lum"
+  ],
+  "energy": {
+    "batteries": [
+      "CR2032"
+    ]
+  },
+  "images": {
+    "large": "/drivers/pirsensor/assets/images/large.png",
+    "small": "/drivers/pirsensor/assets/images/small.png"
+  },
+  "zigbee": {
+    "manufacturerName": [
+      "_TZ3210_cwamkvua"
+    ],
+    "productId": [
+      "TS0202"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          1,
+          1280,
+          61184
+        ],
+        "bindings": [
+          10,
+          25
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/4in1/assets/learn.svg",
+      "instruction": {
+        "en": "Appuyez sur le bouton jusqu'à ce que le voyant clignote ..."
+      }
+    },
+    "settings": []
+  },
+  "settings": []
+}

@@ -1,0 +1,56 @@
+{
+  "triggers": 
+  [
+    {
+      "id": "buttonPressed",
+      "title": {
+        "en": "Button Action"
+      },
+      "titleFormatted": {
+        "en": "Action sur le bouton : [[action]]"
+      },
+      "args": 
+        [
+          {
+            "name": "action",
+            "type": "dropdown",
+            "title": {
+              "en": "Button Action"
+            },
+            "values": [
+              {"id": "singleClick","label": {"en": "1 Click"}},
+              {"id": "doubleClick","label": {"en": "2 Clicks"}},
+              {"id": "hold","label": {"en": "hold"}}
+              ]
+          }
+        ],
+        "hint" : {"en":"texte hint bouton"}
+    },
+
+
+
+    {
+      "id": "alarm_lum",
+      "title": {"en": "Brightness changed"},
+      "titleFormatted": {"en": "La luminosité est  [[action]]"},
+      "args": 
+      [
+        {
+          "name": "action",
+          "type": "dropdown",
+          "title": {
+            "en": "Luminosité"
+          },
+          "values": [
+            {"id": "dark","label": {"en": "dark"}},
+            {"id": "bright","label": {"en": "bright"}}
+            ]
+        }
+      ],
+      "hint": {"en": "texte hint alarm lum"}
+      
+    }
+  ]
+
+
+}
